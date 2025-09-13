@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;  
+    top: 40px;          
+    left: 0;
+    right: 0;
+    margin: 0 auto;  
+    background-color: #343434;
+    width: 1125px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h3 {
+    margin-top: 15px;
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.home {
+    margin-left: 80px;
+    font-weight: 700;
+}
+
+#home_bg {
+    margin-left: 60px;
+    background-color: #E42024;
+    width: 120px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: -167px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.contact {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-left: -94px;
+}
+
+#logo_bg {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 1000px;  
+    margin-left: 58px;
+    margin-top: -18px;
+    border: 3px solid #E42024;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.branches {
+    margin-left: 69px;
+    font-weight: 400;
+}
+
+.cart {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.account {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.top_sushi {
+    margin-top: -2px;
+    margin-left: -35px;
+    width: 480px;
+    height: 500px;
+}
+
+.op_text .h1 {
+    margin-top: -330px;
+    margin-left: 510px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    width: 550px;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.op_text .desc {
+    margin-top: -3px;
+    margin-left: 510px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 450px;
+}
+
+.op_text button {
+    margin-left: 510px;
+    margin-top: 28px;
+    background-color: #E42024;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.img_ab {
+    margin-top: 25px;
+    width: 445px;
+}
+
+.line1 {
+    margin-top: -353.5px;
+    margin-left: 444px;
+    height: 12px;
+    background-color: #1E1E1E; 
+    border: none;  
+    width: 820px;
+}
+
+.gradient {
+    margin-left: 444px;
+    width: 820px;
+    height: 325.5px;
+}
+
+.about_us .h1 {
+    margin-top: -310px;
+    margin-left: 510px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    width: 550px;
+    color: white;
+}
+
+.about_us .desc_2 {
+    margin-top: 3px;
+    margin-left: 510px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 450px;
+    color: white;
+}
+
+.about_us button {
+    margin-left: 510px;
+    margin-top: 28px;
+    background-color: #E42024;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.line2 {
+    margin-top: 30px;
+    margin-left: 444px;
+    height: 12px;
+    background-color: #1E1E1E; 
+    border: none;  
+    width: 820px;
+}
+
+.best_seller .h1 {
+    margin-top: 35px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    gap: 35px;
+}
+
+.options button {
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.options .all {
+    width: 120px;
+    background-color: #E42024;
+    font-weight: 700;
+}
+
+.options .sushi {
+    width: 180px;
+    background-color: #343434;
+    font-weight: 400;
+}
+
+.options .udon {
+    width: 180px;
+    background-color: #343434;
+    font-weight: 400;
+}
+
+.options .drinks {
+    width: 180px;
+    background-color: #343434;
+    font-weight: 400;
+}
+
+.options .others {
+    width: 120px;
+    background-color: #343434;
+    font-weight: 400;
+}
+
+.left {
+    width: 75px;
+    margin-top: 300px;
+    margin-left: 65px;
+}
+
+.menu1 .outer {
+    border-radius: 25px;
+    margin-top: -240px;
+    margin-left: 90px;
+    height: 300px;
+    width: 250px;
+    background-color: #343434;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu1 .inner {
+    border-radius: 35px;
+    margin-left: 40px;
+    width: 170px;
+    height: 140px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 .inner img {
+    width: 130px;
+}
+
+.menu1 .outer h3 {
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    width: 170px;
+    text-align: center;
+}
+.menu1 .rating {
+    margin-top: -10px;
+}
+
+.menu1 .rating img {
+    margin-left: -30px;
+    width: 23px;
+    padding-right: 10px;
+}
+
+.menu1 .rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    width: 200px;
+}
+
+.menu1 .rating .rate {
+    padding-right: 70px;
+}
+
+.menu2 .outer {
+    border-radius: 25px;
+    margin-top: -400px;
+    margin-left: 400px;
+    height: 360px;
+    width: 290px;
+    background-color: #343434;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu2 .inner {
+    border-radius: 35px;
+    margin-left: 30px;
+    width: 230px;
+    height: 190px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2 .inner img {
+    width: 250px;
+    transform: scaleX(-1);
+}
+
+.menu2 .outer h3 {
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+    width: 190px;
+    text-align: center;
+}
+.menu2 .rating {
+    margin-top: -15px;
+}
+
+.menu2 .rating img {
+    margin-left: -38px;
+    width: 23px;
+    padding-right: 10px;
+}
+
+.menu2 .rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    width: 230px;
+}
+
+.menu2 .rating .rate {
+    padding-right: 110px;
+}
+
+.menu3 .outer {
+    border-radius: 25px;
+    margin-top: -340px;
+    margin-left: 750px;
+    height: 300px;
+    width: 250px;
+    background-color: #343434;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu3 .inner {
+    border-radius: 35px;
+    margin-left: 40px;
+    width: 170px;
+    height: 140px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu3 .inner img {
+    width: 170px;
+}
+
+.menu3 .outer h3 {
+    margin-top: 15px;
+    margin-left: 65px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    width: 125px;
+    text-align: center;
+}
+.menu3 .rating {
+    margin-top: -10px;
+}
+
+.menu3 .rating img {
+    margin-left: -78px;
+    width: 23px;
+    padding-right: 10px;
+}
+
+.menu3 .rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    width: 200px;
+}
+
+.menu3 .rating .rate {
+    padding-right: 70px;
+}
+
+.right {
+    width: 75px;
+    margin-top: -400px;
+    margin-bottom: 118px;
+    margin-left: 1130px;
+}
+
+.more img {
+    margin-bottom: -9px;
+    width: 25px;
+}
+
+.more {
+    margin-left: 510px;
+    margin-top: 35px;
+    background-color: #E42024;
+    width: 240px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.line3 {
+    margin-top: 70px;
+    height: 12px;
+    background-color: #343434; 
+    border: none;  
+    width: 630px;
+}
+
+.foods .h1 {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 57px;
+    letter-spacing: 2%;
+}
+
+.foods .desc {
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.list {
+    margin-top: 35px;
+}
+
+.list img {
+    margin-left: 70px;
+    width: 40px;
+    margin-bottom: -11px;
+    padding-right: 8px;
+}
+
+.list h3 {
+    margin-bottom: 15px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5%;
+}
+
+.sec_list {
+    margin-top: -156px;
+    margin-left: 250px;
+}
+
+.foods .food_img {
+    margin-top: -390.5px;
+    margin-left: 630px;
+    width: 630px;
+}
+
+.drinks .drink_img {
+    margin-top: -4px;
+    width: 630px;
+}
+
+.drinks .h1 {
+    margin-left: 665px;
+    margin-top: -425px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 57px;
+    letter-spacing: 2%;
+}
+
+.drinks .desc {
+    margin-left: 665px;
+    margin-top: 10px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.drinks .list img {
+    margin-left: 665px;
+    width: 40px;
+    margin-bottom: -11px;
+    padding-right: 8px;
+}
+
+.line4 {
+    margin-top: 116px;
+    margin-left: 630px;
+    height: 12px;
+    background-color: #343434; 
+    border: none;  
+    width: 634px;
+}
+
+.bg_img {
+    width: 1264px;
+}
+
+.offers .h1 {
+    margin-left: 314px;
+    margin-top: -343px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    width: 650px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.offers .desc {
+    margin-left: 342px;
+    margin-top: 12px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.offers input {
+    margin-top: 35px;
+    margin-left: 314px;
+    width: 488px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px solid #343434;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.offers input::placeholder {
+    color: #343434;
+    opacity: 1;
+}
+
+.offers button {
+    margin-left: 8px;
+    width: 115px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E42024;
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #343434;
+    width: 1264px;
+    height: 345px;
+}
+
+.footer .logo {
+    padding-top: 45px;
+    margin-left: 65px;
+    width: 220px;
+    height: auto;
+}
+
+.footer ul {
+    margin-left: 330px;
+    margin-top: -229px;
+}
+
+.footer li {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer .page .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .page .desc {
+    padding-bottom: 13px;
+}
+
+.footer .socials .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .socials {
+    margin-left: 600px;
+    margin-top: -257px;
+}
+
+.footer .socials .desc {
+    padding-bottom: 25px; 
+    margin-left: 55px; 
+}
+
+.footer .icons img {
+    width: 28px;
+    padding-bottom: 18px;
+    margin-left: 270px;
+}
+
+.footer .icons {
+    margin-top: -210px;
+}
+
+.footer .loc {
+    margin-left: 975px;
+    margin-top: -300px;
+    width: 219px;
+    margin-bottom: 54px;
+}
+
+.line5 {
+    margin-top: -20px;
+    height: 1px;
+    background-color: #ffffff; 
+    border: none;  
+    width: 1129px;
+    margin-left: 65px;
+}
+
+.footer h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+}
+
+.footer .rights {
+    margin-top: 11px;
+    margin-left: 65px;
+}
+
+.tospp {
+    margin-top: -18px;
+    margin-left: 932px;
+}
+
+.pp {
+    margin-left: 40px;
+}

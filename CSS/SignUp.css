@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #343434;
+}
+
+.Image img {
+    border: none;
+    height: 661px;
+    width: 550px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.input input {
+    Padding: 6px;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 445px;
+    margin-left: 665px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 25px;
+    text-decoration: none;
+    border: none;
+}
+
+.Judul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -620px;  
+    margin-right: 115px;
+}
+
+.Judul h1 {
+    font-size: 45px;
+    color: #ffffff;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.input {
+    margin-left: 23px;
+}
+
+.Nama {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 551px;
+    margin-top: 15px; 
+}
+
+.Nama h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Gmail {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 553px;
+    margin-top: 10px;
+}
+
+.Gmail h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Password {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 526px;
+    margin-top: 10px;
+}
+
+.Password h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Konfirmasi {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 432px;
+    margin-top: 10px;
+}
+
+.Konfirmasi h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.checkbox-label {
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 688px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+}
+
+#agree:checked {
+    background-color: transparent;
+    background-image: url('/image/Tick.png');
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 15%; 
+    cursor: pointer;
+    appearance: none;
+}
+
+.tombol {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 409px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 470px;
+    margin-left: 688px;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 3px;
+}
+
+.tombol h1 {
+    font-size: 18px;
+    color: #868686;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #aaa;
+    margin-left: 688px;
+    margin-top: 10px;
+}
+
+.divider hr {
+    width: 210px; 
+    border: none;
+    border-top: 1px solid #7F7F7F;
+}
+
+.divider span {
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: 570px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social-icon img {
+    width: 30px;
+}
+
+.akun h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jaldi", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 815px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.akun a {
+    text-decoration: none;
+    color: white;
+}

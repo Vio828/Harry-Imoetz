@@ -1,4 +1,4 @@
-# KIZUNA Webite 
+# KIZUNA Website 
 
 KIZUNA Website lets customers order directly from Kizuna without waiting in line.
 Choose pickup or have your favorite dishes delivered straight to your door.

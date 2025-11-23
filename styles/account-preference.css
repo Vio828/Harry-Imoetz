@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #343434;
+  width: 1125px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h3 {
+  margin-top: 15px;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.home {
+  margin-left: 80px;
+  font-weight: 400;
+}
+
+#account_bg {
+  margin-left: 60px;
+  background-color: #e42024;
+  width: 120px;
+  height: 48px;
+  margin-top: 10px;
+  margin-right: -187px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.contact {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  margin-left: -94px;
+}
+
+#logo_bg {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  border-radius: 1000px;
+  margin-left: 58px;
+  margin-top: -18px;
+  border: 3px solid #e42024;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.branches {
+  margin-left: 69px;
+  font-weight: 400;
+}
+
+.cart {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.account {
+  margin-left: 90px;
+  font-weight: 700;
+}
+
+.sidebar {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #343434;
+  width: 360px;
+  height: 100vh;
+  margin-top: 180px;
+  border-top-right-radius: 40px;
+  padding-top: 50px;
+}
+
+.sidebar .title {
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-left: 50px;
+}
+
+.list h3 {
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 52px;
+}
+
+.list img {
+  width: 360px;
+  margin-bottom: -195px;
+}
+
+.list .profile {
+  margin-top: 45px;
+}
+
+.list .history {
+  margin-top: 25px;
+}
+
+.list .preference {
+  margin-top: 25px;
+}
+
+.list .vouchers {
+  margin-top: 25px;
+}
+
+.list .dashboard {
+  margin-top: 25px;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.kotak {
+  margin-left: 392px;
+  margin-top: -715px;
+  width: 800px;
+  height: 712px;
+  border: 1.8px solid black;
+  border-top-left-radius: 30px;
+}
+
+.address {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  margin-left: 35px;
+  margin-top: 45px;
+}
+
+.instructions {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.isi1 input {
+  margin-left: 35px;
+  width: 600px;
+  height: 50px;
+  border: 1.5px solid #1b1b1b;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.isi1 input::placeholder {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  opacity: 70%;
+  font-size: 20px;
+}
+
+.kotaks button {
+  margin-left: 18px;
+  margin-top: 5px;
+  width: 105px;
+  height: 55px;
+  background-color: #e42024;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add {
+  display: flex;
+  align-items: center;
+}
+
+.saved {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  margin-left: 436px;
+  margin-top: -310px;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.kotak3 {
+  background-color: #2a2a2a;
+  width: 736px;
+  height: 220px;
+  margin-left: 436px;
+}
+
+.kotak3 .saved-add {
+  padding-top: 25px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding-left: 20px;
+  color: white;
+}
+
+.kotak3 h3 {
+  margin-top: 6px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding-left: 20px;
+  color: white;
+}
+
+.kotak3 p {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 20px;
+  color: white;
+  opacity: 80%;
+}
+
+.kotak3 h3 {
+  margin-bottom: -10px;
+}

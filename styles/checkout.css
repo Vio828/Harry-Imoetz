@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.back-button img {
+  width: 70px;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+.back-button button {
+  height: 55px;
+  width: 160px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  background-color: #343434;
+  border: none;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.box {
+  background-color: #343434;
+  width: 1170px;
+  height: 645px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.box .title {
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  margin-left: 32px;
+  padding-top: 12px;
+}
+
+.box .hr1 {
+  height: 8px;
+  background-color: #e42024;
+  border: none;
+  width: 1110px;
+  margin-left: 30px;
+}
+
+.product .header {
+  background-color: white;
+  width: 460px;
+  height: 30px;
+  border-radius: 100px;
+  margin-left: 45px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  word-spacing: 150px;
+  align-items: center;
+}
+
+.product .header h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.product .items h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-top: 18px;
+  margin-left: 70px;
+}
+
+.product .price h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  margin-top: -80px;
+  margin-left: 380px;
+}
+
+.total .header {
+  background-color: white;
+  width: 460px;
+  height: 45px;
+  border-radius: 100px;
+  margin-left: 45px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  word-spacing: 150px;
+  align-items: center;
+}
+
+.total .header h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.total .header .head-total {
+  color: #e42024;
+  font-size: 28px;
+}
+
+.method h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: 45px;
+  margin-top: 28px;
+  font-size: 21px;
+}
+
+.box .method .hr2 {
+  height: 8px;
+  background-color: #e42024;
+  border: none;
+  width: 475px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.method .cash input[type="checkbox"] {
+  display: none;
+}
+
+.method .cash label {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  background-color: #343434;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+.method .cash input[type="checkbox"]:checked + label {
+  background-image: url("/image/famicons_checkmark.png");
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.method .cash h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  margin-left: 80px;
+  margin-top: -35px;
+  font-size: 22px;
+}
+
+.method .cash-del input[type="checkbox"] {
+  display: none;
+}
+
+.method .cash-del label {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  background-color: #343434;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: -135px;
+  margin-bottom: 20px;
+  margin-left: 275px;
+}
+
+.method .cash-del input[type="checkbox"]:checked + label {
+  background-image: url("/image/famicons_checkmark.png");
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.method .cash-del h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  margin-left: 310px;
+  margin-top: -55px;
+  font-size: 22px;
+}
+
+.preference h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: 45px;
+  margin-top: 28px;
+  font-size: 21px;
+}
+
+.box .preference .hr2 {
+  height: 8px;
+  background-color: #e42024;
+  border: none;
+  width: 475px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.preference .pick input[type="checkbox"] {
+  display: none;
+}
+
+.preference .pick label {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  background-color: #343434;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+.preference .pick input[type="checkbox"]:checked + label {
+  background-image: url("/image/famicons_checkmark.png");
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.preference .pick h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  margin-left: 80px;
+  margin-top: -35px;
+  font-size: 22px;
+}
+
+.preference .del input[type="checkbox"] {
+  display: none;
+}
+
+.preference .del label {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  background-color: #343434;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-top: -135px;
+  margin-bottom: 20px;
+  margin-left: 275px;
+}
+
+.preference .del input[type="checkbox"]:checked + label {
+  background-image: url("/image/famicons_checkmark.png");
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.preference .del h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 80%;
+  margin-left: 310px;
+  margin-top: -55px;
+  font-size: 22px;
+}
+
+.cash-del label,
+.del label {
+  position: relative;
+  z-index: 5;
+}
+
+.payment .header {
+  background-color: white;
+  width: 520px;
+  height: 30px;
+  border-radius: 100px;
+  margin-left: 605px;
+  margin-top: -466.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment .header {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.info h3 {
+  color: white;
+  font-size: 24px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 603px;
+  margin-top: 18px;
+}
+
+.info input {
+  width: 492px;
+  height: 45px;
+  border-radius: 100px;
+  margin-left: 603px;
+  padding-left: 25px;
+}
+
+.info input::placeholder {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.confirm button{
+  background-color: #e42024;
+  color: white;
+  height: 55px;
+  width: 1110px;
+  border-radius: 100px;
+  margin-left: 30px;
+  margin-top: 125px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

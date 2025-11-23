@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;  
+    top: 40px;          
+    left: 0;
+    right: 0;
+    margin: 0 auto;  
+    background-color: #343434;
+    width: 1125px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h3 {
+    margin-top: 15px;
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.home {
+    margin-left: 80px;
+    font-weight: 400;
+}
+
+#branches_bg {
+    margin-left: 60px;
+    background-color: #E42024;
+    width: 120px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: -170px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.contact {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-left: -94px;
+}
+
+#logo_bg {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 1000px;  
+    margin-left: 58px;
+    margin-top: -18px;
+    border: 3px solid #E42024;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.branches {
+    margin-left: 69px;
+    font-weight: 700;
+}
+
+.cart {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.account {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.loc .icon {
+    width: 50px;
+    margin-top: 190px;
+    margin-left: 73px;
+}
+
+.loc h3 {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 58px;
+    margin-top: -75px;
+    margin-left: 125px;
+    margin-bottom: -22px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.loc .line {
+    width: 570px;
+    margin-left: 80px;
+    margin-bottom: 300px;
+}
+
+.box {
+    margin-left: 65px;
+    margin-top: -250px;
+    width: 1130px;
+    height: 730px;
+    border: 1.5px solid #343434;
+    border-radius: 25px;
+}
+
+.box .title {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+.box .num {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #8E8E8E;
+    margin-top: -62px;
+    margin-left: 170px;
+}
+
+.box .search {
+    height: 40px;
+    width: 270px;
+    margin-left: 34px;
+    border: 1.5px solid #1E1E1E;
+    border-radius: 5px;
+    padding-left: 38px;
+    margin-top: 10px;
+}
+
+.box .icon-search {
+    width: 28px;
+    margin-bottom: -10px;
+    margin-left: -267px;
+}
+
+.box .la {
+    margin-left: 34px;
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    background-color: #1E1E1E;
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options .lt {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.lt .arrow {
+    width: 30px;
+    margin-left: 230px;
+    margin-top: -300px;
+    margin-bottom: 30px;
+}
+
+.lt hr {
+    margin-top: -25px;
+    margin-left: -16px;
+    height: 1.5px;
+    width: 270px;
+    background-color: black;
+    border: none; 
+}
+
+.red-block {
+    height: 58px;
+    background-color: #E42024;
+    width: 6px;
+    margin-top: -58px;
+    margin-left: 34px;
+}
+
+.options .rest {
+    font-family: "Jaldi", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 33px;
+}
+
+.rest .arrow {
+    width: 30px;
+    margin-left: 248px;
+    margin-top: -300px;
+    margin-bottom: 30px;
+}
+
+.rest hr {
+    margin-top: -25px;
+    height: 1.5px;
+    width: 270px;
+    background-color: black;
+    border: none; 
+}
+
+.image-place img {
+    width: 790px;
+    height: 733px;
+    margin-top: -1000px;
+    margin-bottom: 23px;
+    margin-left: 344px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.image-place .info {
+    width: 730px;
+    height: 230px;
+    background-color: #343434;
+    border-radius: 10px;
+    margin-left: 375px;
+    margin-top: -280px;
+    z-index: 2;
+    position: absolute;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info .r-a {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -2px;
+    margin-left: 25px;
+}
+
+.info .r-a2 {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 595px;
+    transform: rotate(180deg);
+}
+
+.info .title-info {
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 320px;
+    margin-top: -65px;
+}
+
+.info hr {
+    height: 2px;
+    background-color: #E42024;
+    border: none; 
+    margin-top: 10px;
+}
+
+.info .phone {
+    width: 30px;
+    height: auto;
+    margin-left: -1px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.info .info-phone {
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-top: -55px;
+    margin-left: 70px;
+}
+
+.options .rest  a {
+    text-decoration: none;
+    color: #1E1E1E;
+}

@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;  
+    top: 40px;          
+    left: 0;
+    right: 0;
+    margin: 0 auto;  
+    background-color: #343434;
+    width: 1125px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h3 {
+    margin-top: 15px;
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.home {
+    margin-left: 80px;
+    font-weight: 400;
+}
+
+#menu_bg {
+    margin-left: 60px;
+    background-color: #E42024;
+    width: 120px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: -175px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    margin-left: 90px;
+    font-weight: 700;
+}
+
+.contact {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-left: -94px;
+}
+
+#logo_bg {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 1000px;  
+    margin-left: 58px;
+    margin-top: -18px;
+    border: 3px solid #E42024;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.branches {
+    margin-left: 69px;
+    font-weight: 400;
+}
+
+.cart {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.account {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu-title {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    margin: 30px 0px 0px 62px;
+    color: #343434;
+}
+
+.menu-list {
+    margin: 0px 0px 0px 65px;
+}
+
+.menu-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list ul li {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #747474;
+    margin-bottom: 60px;
+}
+
+.pagination {
+    margin: -30px 0px 0px 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination #first {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #E42024;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.pagination #second {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #747474;
+    border: 3px solid #E42024;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-card .outer-card {
+    height: 370px;
+    width: 250px;
+    background-color: #343434;
+    margin-left: 340px;
+    margin-top: -793px;
+    border-radius: 16px;
+}
+
+.outer-card .basket {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 36px;
+}
+
+.outer-card .like {
+    width: 36px;
+    margin-left: 118px;
+}
+
+.menu-card .inner-card {
+    border-radius: 30px;
+    width: 190px;
+    height: 160px;
+    background-color: #1E1E1E;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card .inner-card img {
+    width: 160px;
+}
+
+.outer-card .menu-name {
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.rating img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.price h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+    margin-left: 158px;
+    margin-top: -35px;
+}
+
+.menu-card .outer-card1 {
+    height: 370px;
+    width: 250px;
+    background-color: #343434;
+    margin-left: 30px;
+    margin-top: -793px;
+    border-radius: 16px;
+}
+
+.outer-card1 .basket {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 36px;
+}
+
+.outer-card1 .like {
+    width: 36px;
+    margin-left: 118px;
+}
+
+.menu-card .outer-card1 .inner-card {
+    border-radius: 30px;
+    width: 190px;
+    height: 160px;
+    background-color: #1E1E1E;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card .outer-card1 .inner-card img {
+    width: 160px;
+}
+
+.rating img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.price h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+    margin-left: 158px;
+    margin-top: -35px;
+}
+
+.menu-card2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-card2 .outer-card {
+    height: 370px;
+    width: 250px;
+    background-color: #343434;
+    margin-left: 340px;
+    margin-top: -380px;
+    border-radius: 16px;
+}
+
+.outer-card .basket {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 36px;
+}
+
+.outer-card .like {
+    width: 36px;
+    margin-left: 118px;
+}
+
+.menu-card2 .inner-card {
+    border-radius: 30px;
+    width: 190px;
+    height: 160px;
+    background-color: #1E1E1E;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card2 .inner-card img {
+    width: 160px;
+}
+
+.menu-card2 .outer-card1 {
+    height: 370px;
+    width: 250px;
+    background-color: #343434;
+    margin-left: 30px;
+    margin-top: -380px;
+    border-radius: 16px;
+}
+
+.outer-card1 .basket {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 36px;
+}
+
+.outer-card1 .like {
+    width: 36px;
+    margin-left: 118px;
+}
+
+.menu-card2 .outer-card1 .inner-card {
+    border-radius: 30px;
+    width: 190px;
+    height: 160px;
+    background-color: #1E1E1E;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card2 .outer-card1 .inner-card img {
+    width: 160px;
+}
+
+.outer-card1 .menu-name {
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.rating img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.rating h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.price h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+    margin-left: 158px;
+    margin-top: -35px;
+}
+
+.outer-card1 .menu-name3 {
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 200px;   
+    text-align: center;
+    line-height: 40px;
+}
+
+.rating3 img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.rating3 h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+    margin-top: -5px;
+}
+
+.price3 h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+    margin-left: 158px;
+    margin-top: -35px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #343434;
+    width: 1264px;
+    height: 345px;
+}
+
+.footer .logo {
+    padding-top: 45px;
+    margin-left: 65px;
+    width: 220px;
+    height: auto;
+}
+
+.footer ul {
+    margin-left: 330px;
+    margin-top: -229px;
+}
+
+.footer li {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer .page .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .page .desc {
+    padding-bottom: 13px;
+}
+
+.footer .socials .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .socials {
+    margin-left: 600px;
+    margin-top: -257px;
+}
+
+.footer .socials .desc {
+    padding-bottom: 25px; 
+    margin-left: 55px; 
+}
+
+.footer .icons img {
+    width: 28px;
+    padding-bottom: 18px;
+    margin-left: 270px;
+}
+
+.footer .icons {
+    margin-top: -210px;
+}
+
+.footer .loc {
+    margin-left: 975px;
+    margin-top: -300px;
+    width: 219px;
+    margin-bottom: 54px;
+}
+
+.line5 {
+    margin-top: -20px;
+    height: 1px;
+    background-color: #ffffff; 
+    border: none;  
+    width: 1129px;
+    margin-left: 65px;
+}
+
+.footer h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+}
+
+.footer .rights {
+    margin-top: 11px;
+    margin-left: 65px;
+}
+
+.tospp {
+    margin-top: -18px;
+    margin-left: 932px;
+}
+
+.pp {
+    margin-left: 40px;
+}

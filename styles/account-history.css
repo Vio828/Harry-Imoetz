@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #343434;
+  width: 1125px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h3 {
+  margin-top: 15px;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.home {
+  margin-left: 80px;
+  font-weight: 400;
+}
+
+#account_bg {
+  margin-left: 60px;
+  background-color: #e42024;
+  width: 120px;
+  height: 48px;
+  margin-top: 10px;
+  margin-right: -187px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.contact {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  margin-left: -94px;
+}
+
+#logo_bg {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  border-radius: 1000px;
+  margin-left: 58px;
+  margin-top: -18px;
+  border: 3px solid #e42024;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.branches {
+  margin-left: 69px;
+  font-weight: 400;
+}
+
+.cart {
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.account {
+  margin-left: 90px;
+  font-weight: 700;
+}
+
+.sidebar {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #343434;
+  width: 360px;
+  min-height: 100%;
+  height: auto;
+  border-top-right-radius: 40px;
+  padding-top: 50px;
+  position: absolute;
+  top: 180px;
+  left: 0;
+}
+
+.sidebar .title {
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-left: 50px;
+}
+
+.list h3 {
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 52px;
+}
+
+.list img {
+  width: 360px;
+  margin-bottom: -140px;
+}
+
+.list .profile {
+  margin-top: 45px;
+}
+
+.list .history {
+  margin-top: 25px;
+}
+
+.list .preference {
+  margin-top: 25px;
+}
+
+.list .notification {
+  margin-top: 25px;
+}
+
+.list .vouchers {
+  margin-top: 25px;
+}
+
+.list .dashboard {
+  margin-top: 25px;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.days .contact-select {
+  border: solid 1.5px black;
+  border-radius: 12px;
+  width: 170px;
+  height: 50px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 30px;
+  line-height: 50px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url("/image/mingcute_down-fill.png");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 22px;
+}
+
+.days {
+  position: absolute;
+  top: 180px;
+  right: 50px;
+}
+
+.item {
+  height: 280px;
+  width: 800px;
+  border: 1.4px solid black;
+  border-radius: 12px;
+  margin-left: 395px;
+  margin-top: 23px;
+}
+
+.item hr {
+  height: 1.5px;
+  background-color: black;
+  margin-top: 18px;
+  border: none;
+}
+
+.item .date {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1b1b1b;
+  font-size: 20px;
+  width: 100px;
+  line-height: 22px;
+  margin-top: 18px;
+  margin-left: 40px;
+}
+
+.item .total {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1b1b1b;
+  font-size: 20px;
+  width: 120px;
+  line-height: 22px;
+  margin-top: -45px;
+  margin-left: 220px;
+}
+
+.item .number {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1b1b1b;
+  font-size: 20px;
+  width: 120px;
+  line-height: 22px;
+  margin-top: -44px;
+  margin-left: 638px;
+}
+
+.rate {
+  width: 715px;
+  height: 35px;
+  border: 1.5px solid black;
+  margin-left: 40px;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.rate .star {
+  width: 35px;
+  height: auto;
+  margin-left: 2px;
+}
+
+.rate h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  margin-left: 5px;
+}
+
+.rate .x {
+  width: 35px;
+  height: auto;
+  margin-left: 435px;
+}
+
+.order {
+  width: 125px;
+  height: 100px;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.order img {
+  width: 100px;
+  height: auto;
+  margin-left: -1px;
+  margin-left: 12px;
+  margin-top: 2px;
+}
+
+.info .menu-title {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: -85px;
+  margin-left: 188px;
+  color: #1b1b1b;
+}
+
+.info .desc {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  opacity: 85%;
+  margin-top: -8px;
+  margin-left: 188px;
+}
+
+.info .qty {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: -8px;
+  margin-left: 188px;
+}
+
+.buy {
+  background-color: #e42024;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  height: 55px;
+  width: 138px;
+  border-radius: 15px;
+  text-shadow: 0px 3px 3px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.button {
+  margin-top: -60px;
+  margin-left: 620px;
+}
+
+.item.hidden {
+  display: none !important;
+}

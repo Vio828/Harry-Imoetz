@@ -60,4 +60,3 @@ Lastly open the folder you cloned on your computer and double click the SignIn.h
 6. Contact
 7. Cart
 8. Account
-9. (Soon to come)

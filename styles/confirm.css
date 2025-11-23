@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.semua {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bg {
+  background-color: #343434;
+  width: 490px;
+  height: 735px;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.font .summary {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 36px;
+  padding-left: 25px;
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+
+.font .num {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+  padding-left: 25px;
+  margin-top: -15px;
+  letter-spacing: 1px;
+}
+
+.font .time {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 17px;
+  padding-left: 25px;
+  margin-top: -13px;
+  letter-spacing: 0.5px;
+}
+
+.font .details {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  padding-left: 25px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.bg .img1 {
+  margin-top: -1px;
+  margin-top: 3px;
+  width: 125px;
+  height: 85px;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.bg .img1 img {
+  width: 100px;
+  height: auto;
+}
+
+.img .info {
+  display: flex;
+  flex-direction: row;
+  margin-top: -60px;
+  margin-left: 165px;
+}
+
+.info .qty {
+  margin-left: 25px;
+}
+
+.info .price {
+  margin-left: 75px;
+}
+
+.img h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 22px;
+}
+
+.hr1 {
+  width: 440px;
+  height: 1px;
+  border: none;
+  background-color: #ffffff;
+  opacity: 50%;
+  margin-left: 25px;
+  margin-top: 38px;
+}
+
+.bg .img2 {
+  margin-top: 16px;
+  width: 125px;
+  height: 85px;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.bg .img2 img {
+  width: 100px;
+  height: auto;
+}
+
+.img .info2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -60px;
+  margin-left: 165px;
+}
+
+.info2 .qty {
+  margin-left: 49px;
+}
+
+.info2 .price {
+  margin-left: 76px;
+}
+
+.hr2 {
+  width: 440px;
+  height: 1px;
+  border: none;
+  background-color: #ffffff;
+  opacity: 50%;
+  margin-left: 25px;
+  margin-top: 38px;
+}
+
+.font1 .total {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 29px;
+  margin-left: 165px;
+}
+
+.font1 .total-price {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+  margin-left: 393px;
+  margin-top: -44px;
+}
+
+.orang .orang-kiri img {
+  width: 35px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 55px;
+}
+
+.orang-info .nama {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  margin-top: -44px;
+  margin-left: 68px;
+}
+
+.orang-info .telp {
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  margin-left: 25px;
+  letter-spacing: 0.5px;
+}
+
+.orang-kanan {
+  width: 220px;
+  margin-top: -52px;
+  margin-left: 252px;
+}
+
+.orang-kanan h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.estimasi .estimated {
+  padding-left: 28px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 27px;
+  margin-top: 60px;
+}
+
+.estimasi .time {
+  padding-left: 28px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 27px;
+  margin-top: -45px;
+  margin-left: 345px;
+}
+
+.selesai img {
+  width: 120px;
+  height: auto;
+  margin-top: -900px;
+  margin-bottom: 430px;
+  margin-left: 780px;
+}
+
+.selesai h3 {
+  margin-left: 615px;
+  margin-top: -408px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  color: #3e3e3e;
+  font-size: 42px;
+  width: 500px;
+}
+
+.selesai p {
+  margin-left: 650px;
+  margin-top: -3px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  color: #3e3e3e;
+  font-size: 19px;
+  width: 500px;
+}
+
+.kotak button {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 23px;
+  background-color: #e42024;
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 760px;
+  margin-top: -250px;
+  cursor: pointer;
+}
+
+.kotak a {
+  text-decoration: none;
+}

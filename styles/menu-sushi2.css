@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* Header Section */
+.header div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #343434;
+    width: 1125px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h3 {
+    margin-top: 15px;
+    color: white;
+    font-family: "Jaldi", sans-serif;
+    font-size: 24px;
+}
+
+.home {
+    margin-left: 80px;
+    font-weight: 400;
+}
+
+#menu_bg {
+    margin-left: 60px;
+    background-color: #E42024;
+    width: 120px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: -175px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    margin-left: 90px;
+    font-weight: 700;
+}
+
+.contact,
+.branches,
+.cart,
+.account {
+    margin-left: 90px;
+    font-weight: 400;
+}
+
+.branches {
+    margin-left: 69px;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-left: -94px;
+}
+
+#logo_bg {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 1000px;
+    margin-left: 58px;
+    margin-top: -18px;
+    border: 3px solid #E42024;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Background */
+.background img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Menu Section */
+.menu-title {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 30px 0 0 62px;
+    color: #343434;
+}
+
+.menu-list {
+    margin: 0 0 0 65px;
+}
+
+.menu-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list ul li {
+    font-family: "Istok Web", sans-serif;
+    font-size: 28px;
+    color: #747474;
+    margin-bottom: 60px;
+}
+
+.menu-list ul .sushi {
+    margin-top: 55px;
+    color: #343434;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+/* Pagination */
+.pagination {
+    margin: -30px 0 0 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination #first,
+.pagination #second {
+    font-family: "Istok Web", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.pagination #first {
+    color: #747474;
+    border: 3px solid #E42024;
+    width: 25px;
+    height: 25px;
+}
+
+.pagination #second {
+    color: white;
+    background-color: #E42024;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Menu Cards */
+.menu-card,
+.menu-card2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Card Base */
+.outer-card,
+.outer-card1 {
+    height: 370px;
+    width: 250px;
+    background-color: #343434;
+    border-radius: 16px;
+}
+
+.outer-card {
+    margin-left: 340px;
+}
+
+.outer-card1 {
+    margin-left: 30px;
+}
+
+.menu-card .outer-card {
+    margin-top: -793px;
+}
+
+.menu-card .outer-card1 {
+    margin-top: -793px;
+}
+
+.menu-card2 .outer-card {
+    margin-top: -380px;
+    margin-left: 340px;
+}
+
+.menu-card2 .outer-card1 {
+    margin-top: -380px;
+    margin-left: 30px;
+}
+
+.basket {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 36px;
+}
+
+.like {
+    width: 36px;
+    margin-left: 118px;
+}
+
+/* Inner Card */
+.inner-card {
+    border-radius: 30px;
+    width: 190px;
+    height: 160px;
+    background-color: #1E1E1E;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-card img {
+    width: 170px;
+}
+
+/* Menu Name */
+.menu-name,
+.menu-name3 {
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu-name {
+    margin-left: 25px;
+    width: 200px;
+}
+
+.menu-name3 {
+    width: 200px;
+    margin-left: 25px;
+}
+
+/* Rating & Price */
+.rating img,
+.rating3 img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.rating h3,
+.rating3 h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+}
+
+.rating3 h3 {
+    margin-top: -5px;
+}
+
+.price h3,
+.price3 h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    color: white;
+    margin-left: 158px;
+    margin-top: -35px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #343434;
+    width: 1264px;
+    height: 345px;
+}
+
+.footer .logo {
+    padding-top: 45px;
+    margin-left: 65px;
+    width: 220px;
+    height: auto;
+}
+
+.footer ul {
+    margin-left: 330px;
+    margin-top: -229px;
+}
+
+.footer li {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer .page .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .page .desc {
+    padding-bottom: 13px;
+}
+
+.footer .socials .h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.footer .socials {
+    margin-left: 600px;
+    margin-top: -257px;
+}
+
+.footer .socials .desc {
+    padding-bottom: 25px; 
+    margin-left: 55px; 
+}
+
+.footer .icons img {
+    width: 28px;
+    padding-bottom: 18px;
+    margin-left: 270px;
+}
+
+.footer .icons {
+    margin-top: -210px;
+}
+
+.footer .loc {
+    margin-left: 975px;
+    margin-top: -300px;
+    width: 219px;
+    margin-bottom: 54px;
+}
+
+.line5 {
+    margin-top: -20px;
+    height: 1px;
+    background-color: #ffffff; 
+    border: none;  
+    width: 1129px;
+    margin-left: 65px;
+}
+
+.footer h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+}
+
+.footer .rights {
+    margin-top: 11px;
+    margin-left: 65px;
+}
+
+.tospp {
+    margin-top: -18px;
+    margin-left: 932px;
+}
+
+.pp {
+    margin-left: 40px;
+}

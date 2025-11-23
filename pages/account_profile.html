@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Account</title>
+    <link rel="stylesheet" type="text/css" href="/styles/account-profile.css" />
+    <link rel="website icon" type="png" href="/image/Logo footer.png" />
+  </head>
+  <body>
+    <div class="header">
+      <div id="home_bg"></div>
+      <a href="/pages/logged.php"><h3 class="home">Home</h3></a>
+      <div id="menu_bg"></div>
+      <a href="/pages/menu-sushi1.html"><h3 class="menu">Menu</h3></a>
+      <h3 class="contact">Contact</h3>
+      <div id="logo_bg"></div>
+      <img src="/image/Logo.png" alt="" class="logo" />
+      <a href="/pages/branches1.html"><h3 class="branches">Branches</h3></a>
+      <a href="/pages/cart.html"><h3 class="cart">Cart</h3></a>
+      <div id="account_bg"></div>
+      <h3 class="account">Account</h3>
+    </div>
+
+    <div class="sidebar">
+      <h3 class="title">Settings</h3>
+      <div class="list">
+        <img src="/image/Bg account.png" alt="" />
+        <h3 class="profile">Profile</h3>
+        <a href="/pages/account-history.html"><h3 class="history">Order History</h3></a>
+        <a href="/pages/account-preference.html"><h3 class="preference">Delivery Preferences</h3></a>
+        <a href="/pages/account-notif.html"><h3 class="notification">Notification</h3></a>
+        <a href="/pages/account-dashboard.html"><h3 class="dashboard">Dashboard</h3></a>
+      </div>
+    </div>
+
+    <div class="information">
+      <h3 class="title">Account Settings</h3>
+      <h3 class="sub-title">Information</h3>
+
+      <h3 class="pp-title">Profile Picture</h3>
+
+      <div class="profile-container">
+        <label for="upload-profile" class="profile-wrapper">
+          <img src="/image/PP.png" id="profile-img" alt="Profile" />
+          <div class="camera-icon">
+            <img src="/image/solar_camera-outline.png" class="camera-img" />
+          </div>
+        </label>
+
+        <input type="file" id="upload-profile" accept="image/*" hidden />
+        <h3 class="new-pic">Upload new picture</h3>
+        <h3 class="remove">Remove</h3>
+      </div>
+
+      <hr class="hr1" />
+      <div class="name">
+        <h3>Name</h3>
+        <h2>Claryn</h2>
+      </div>
+      <hr class="hr1" />
+      <div class="name">
+        <h3>Email</h3>
+        <h2>claryn_@gmail.com</h2>
+      </div>
+      <hr class="hr1" />
+      <div class="name">
+        <h3>Phone Number</h3>
+        <h2>+1 (202) 321-0148</h2>
+      </div>
+      <hr class="hr1" />
+      <div class="name">
+        <h3>Delivery Address</h3>
+        <h2>2305 Sunset Ridge Drive, San Diego, CA 92128</h2>
+      </div>
+      <hr class="hr1" />
+      <div class="name">
+        <h3>Pickup Location</h3>
+        <h2>1900 N Highland Ave, Suite 5, Los Angeles, CA 90068</h2>
+      </div>
+      <hr class="hr1"/>
+      <div class="name">
+        <h3>Contact Preferences</h3>
+
+        <div class="select-wrapper">
+          <select class="contact-select">
+            <option>Email</option>
+            <option>Phone</option>
+          </select>
+        </div>
+        <hr class="hr1"/>
+    </div>
+
+    <script src="/script/account-profile.js"></script>
+  </body>
+</html>
